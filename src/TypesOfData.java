@@ -46,5 +46,6 @@ public class TypesOfData {
         //JAVA выдает ошибку, пишем L в конце;
         System.out.println(chinaPlusIndia);
 
+
     }
 }
