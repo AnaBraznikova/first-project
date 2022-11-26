@@ -49,7 +49,7 @@ public class SecondClassInProgramm {
 
 
         System.out.println(b);
-        b += 1; // равна b = b +1;
+        b += 1; // равна b = b + 1;
         System.out.println(b);
         b /= 2; // b = b / 2;
         System.out.println(b);

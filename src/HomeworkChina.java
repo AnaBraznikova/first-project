@@ -19,13 +19,19 @@ public class HomeworkChina {
 
         System.out.println(humanPopulationAsChinaInTheWorld); // 278_120_408_628
 
+        int secInHour = 3600;
+        int hoursInDays = 24;
+        int daysInYear = 365;
+
 
         long FelixLifeInSec = 3_011_456_567L;
-        long FelixLifeInHour = FelixLifeInSec / 3600;
-        long FelixLifeInDays = FelixLifeInHour / 24;
-        long FelixLifeInYears = FelixLifeInDays / 365;
+        long FelixLifeInHour = FelixLifeInSec / secInHour;
+        long FelixLifeInDays = FelixLifeInHour / hoursInDays;
+        long FelixLifeInYears = FelixLifeInDays / daysInYear;
 
         System.out.println(FelixLifeInYears);//95
+
+
 
     }
 }
